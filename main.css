@@ -1,0 +1,91 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  background: steelblue;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 20px 0;
+}
+
+#container {
+  max-width: 50vw;
+  margin: 20px auto;
+  max-height: 50vh;
+  box-sizing: border-box;
+}
+
+.square {
+  background-color: #232323;
+  width: 30%;
+  padding-bottom: 30%;
+  margin: 1.66%;
+  float: left;
+  border-radius: 15%;
+  transition: background 0.8s;
+  /* webkit and moz for support for safari and mozilla support */
+  --webkit--transition: background 0.8s;
+  --moz-transition: background 0.8s;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: steelblue;
+}
+
+#stripe {
+  background: white;
+  height: 30px;
+  text-align: center;
+}
+
+.selected {
+  color: white;
+  background: steelblue;
+}
+
+#colorDisplay {
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: steelblue;
+  letter-spacing: 1px;
+  font-size: inherit;
+  transition: all 0.3s;
+  /* webkit and moz for support for safari and mozilla support */
+  --webkit--transition: all 0.3s;
+  --moz-transition: all 0.3s;
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background: steelblue;
+}
+
+#score h2 {
+  margin: 20px auto;
+  float: center;
+  color: white;
+  text-align: center;
+  background: #232323;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 20px 0;
+}
